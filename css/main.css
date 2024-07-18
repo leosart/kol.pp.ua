@@ -1,0 +1,97 @@
+.navbar{ background:#000000;}
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #f4f4f4; color: #000000; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
+
+.font{
+//	background-image: url('../images/font-black.jpg');
+	background-image: url('../images/font-white.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+//.font:hover{
+//	background-image: url('../images/font-white.jpg');
+//	background-attachment: fixed;
+//	background-size: cover;
+//	background-position: center;
+//}
+
+.transition {
+	-webkit-transition: 2s;
+	-moz-transition: 2s;
+	-o-transition: 2s;
+	transition: 2s;
+}
+
+header {
+	margin-top: 270px;
+}
+
+.content {
+	padding: 30px;
+	border: 0;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.19);
+	background: #ffffff;
+	color: #949494;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.list li {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.icon {
+	list-style: none;
+}
+
+.icon li {
+	display: inline;
+}
+
+.linkedin{ background-image: url('../images/linkedin-logo.png'); height: 32px; width: 32px; }
+.linkedin:hover{ background-image: url('../images/linkedin.png'); }
+
+.facebook{ background-image: url('../images/facebook-logo.png'); height: 32px; width: 32px; }
+.facebook:hover{ background-image: url('../images/facebook.png'); }
+
+.skype{ background-image: url('../images/skype-logo.png'); height: 32px; width: 32px; }
+.skype:hover{ background-image: url('../images/skype.png'); }
+
+.email{ background-image: url('../images/email-logo.png'); height: 32px; width: 32px; }
+.email:hover{ background-image: url('../images/email.png'); }
+
+.slideUp{
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;    
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+    animation-timing-function: ease;    
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;         
+}
+
+@keyframes slideUp {
+	0% { transform: translateY(100%); }
+	50%{ transform: translateY(-8%); }
+	65%{ transform: translateY(4%); }
+	80%{ transform: translateY(-4%); }
+	95%{ transform: translateY(2%); }
+	100% { transform: translateY(0%); }
+}
+
+@-webkit-keyframes slideUp {
+	0% { -webkit-transform: translateY(100%); }
+	50%{ -webkit-transform: translateY(-8%); }
+	65%{ -webkit-transform: translateY(4%); }
+	80%{ -webkit-transform: translateY(-4%); }
+	95%{ -webkit-transform: translateY(2%); }
+	100% { -webkit-transform: translateY(0%); }
+}
